@@ -5,11 +5,16 @@ body {
     font-family: sans-serif;
   }
   
-  p {
+p {
     margin: 0;
   }
   
-  .btn {
+.text {
+  margin: 15px;
+}
+
+.btn {
+    margin-left: 15px;
     border: 1px solid black;
     border-radius: 5px;
     font-weight: bold;
@@ -18,18 +23,18 @@ body {
     padding: 10px;
   }
 
-  .btn:hover {
+.btn:hover {
     color: black;
     background-color: lightgreen;
   }
 
-  .user-list {
+.user-list {
     margin: 0;
     list-style: none;
     padding: 24px;
   }
   
-  .user-list .item:not(:last-child) {
+.user-list .item:not(:last-child) {
     margin-bottom: 16px;
   }
   
