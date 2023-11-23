@@ -1,0 +1,35 @@
+body {
+    margin: 16px;
+    line-height: 1.5;
+    color: #212121;
+    font-family: sans-serif;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: seagreen;
+    padding: 10px;
+  }
+
+  .btn:hover {
+    color: black;
+    background-color: lightgreen;
+  }
+
+  .user-list {
+    margin: 0;
+    list-style: none;
+    padding: 24px;
+  }
+  
+  .user-list .item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  

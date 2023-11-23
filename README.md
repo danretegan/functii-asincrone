@@ -1,1 +1,5 @@
 # functii-asincrone
+
+Request-uri paralele.
+ Cod AJAX standard ce utilizează funcții asincrone.
+   Request-urile din codul din acest repozitoriu sunt independente, așa că trebuie să le rulăm în paralel. Pentru a face acest lucru, va fi creată o serie de promisuri, după care se va folosi metoda Promise.all() pentru a aștepta execuția lor. Matricea de promisuri poate fi creată prin metodele map(), filter() și așa mai departe, în funcție de natura task-ului. Cu această abordare, request-urile sunt executate în paralel, ceea ce economisește timp de așteptare pentru execuția lor, care este egal cu durata celei mai «lente». Această tehnică este potrivită numai dacă solicitările nu depind unele de altele. Verificați acest lucru deschizând devTools din exemplul live. Am adăugat, de asemenea, un buton care execută o solicitare atunci când se dă click și am gestionat o posibilă eroare cu construcția try...catch. 
